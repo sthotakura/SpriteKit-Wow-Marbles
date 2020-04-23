@@ -15,10 +15,14 @@
 		69044E9B24506B6D00982F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69044E9924506B6D00982F12 /* Main.storyboard */; };
 		69044E9D24506B6E00982F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69044E9C24506B6E00982F12 /* Assets.xcassets */; };
 		69044EA024506B6E00982F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69044E9E24506B6E00982F12 /* LaunchScreen.storyboard */; };
+		69044EA82451536700982F12 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69044EA72451536700982F12 /* Explosion.sks */; };
+		69044EAA2451663200982F12 /* blop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69044EA92451663200982F12 /* blop.wav */; };
+		69044EAC2451665000982F12 /* GameSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69044EAB2451665000982F12 /* GameSounds.swift */; };
+		69044EAE245168A200982F12 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 69044EAD245168A200982F12 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69044E8C24506B6D00982F12 /* Marbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69044E8C24506B6D00982F12 /* WOW Marbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WOW Marbles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69044E8F24506B6D00982F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69044E9124506B6D00982F12 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		69044E9324506B6D00982F12 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -28,6 +32,10 @@
 		69044E9C24506B6E00982F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69044E9F24506B6E00982F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69044EA124506B6E00982F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69044EA72451536700982F12 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		69044EA92451663200982F12 /* blop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blop.wav; sourceTree = "<group>"; };
+		69044EAB2451665000982F12 /* GameSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSounds.swift; sourceTree = "<group>"; };
+		69044EAD245168A200982F12 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,7 @@
 		69044E8D24506B6D00982F12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69044E8C24506B6D00982F12 /* Marbles.app */,
+				69044E8C24506B6D00982F12 /* WOW Marbles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +68,8 @@
 		69044E8E24506B6D00982F12 /* Marbles */ = {
 			isa = PBXGroup;
 			children = (
+				69044EAD245168A200982F12 /* readme.md */,
+				69044EA92451663200982F12 /* blop.wav */,
 				69044E8F24506B6D00982F12 /* AppDelegate.swift */,
 				69044E9124506B6D00982F12 /* GameScene.sks */,
 				69044E9324506B6D00982F12 /* Actions.sks */,
@@ -69,6 +79,8 @@
 				69044E9C24506B6E00982F12 /* Assets.xcassets */,
 				69044E9E24506B6E00982F12 /* LaunchScreen.storyboard */,
 				69044EA124506B6E00982F12 /* Info.plist */,
+				69044EA72451536700982F12 /* Explosion.sks */,
+				69044EAB2451665000982F12 /* GameSounds.swift */,
 			);
 			path = Marbles;
 			sourceTree = "<group>";
@@ -90,7 +102,7 @@
 			);
 			name = Marbles;
 			productName = Marbles;
-			productReference = 69044E8C24506B6D00982F12 /* Marbles.app */;
+			productReference = 69044E8C24506B6D00982F12 /* WOW Marbles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,10 +144,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69044E9B24506B6D00982F12 /* Main.storyboard in Resources */,
+				69044EAA2451663200982F12 /* blop.wav in Resources */,
 				69044E9224506B6D00982F12 /* GameScene.sks in Resources */,
 				69044E9D24506B6E00982F12 /* Assets.xcassets in Resources */,
 				69044EA024506B6E00982F12 /* LaunchScreen.storyboard in Resources */,
 				69044E9424506B6D00982F12 /* Actions.sks in Resources */,
+				69044EAE245168A200982F12 /* readme.md in Resources */,
+				69044EA82451536700982F12 /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69044E9624506B6D00982F12 /* GameScene.swift in Sources */,
+				69044EAC2451665000982F12 /* GameSounds.swift in Sources */,
 				69044E9824506B6D00982F12 /* GameViewController.swift in Sources */,
 				69044E9024506B6D00982F12 /* AppDelegate.swift in Sources */,
 			);
@@ -299,8 +315,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.neharjun.Marbles;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neharjun.wowMarbles;
+				PRODUCT_NAME = "WOW Marbles";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,8 +333,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.neharjun.Marbles;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neharjun.wowMarbles;
+				PRODUCT_NAME = "WOW Marbles";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
